@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Classe de service permettant la gestion des login
  */
-public class LoginService {
+public class    LoginService {
 
     private ArrayList<String> loginsExistants;
 
