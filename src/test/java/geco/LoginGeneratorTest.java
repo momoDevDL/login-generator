@@ -21,10 +21,12 @@ public class LoginGeneratorTest {
         lg.generateLoginForNomAndPrenom("Durand","Paul");
         lg.generateLoginForNomAndPrenom("Ralling","John");
         lg.generateLoginForNomAndPrenom("Rolling","Jean");
+        lg.generateLoginForNomAndPrenom("Du","Paul");
         assertTrue(ls.loginExists("PDUR"));
         assertTrue(ls.loginExists("PDUR1"));
         assertTrue(ls.loginExists(("JRAL2")));
         assertTrue(ls.loginExists(("JROL1")));
+        assertTrue(ls.loginExists("PDU"));
 
     }
 }
